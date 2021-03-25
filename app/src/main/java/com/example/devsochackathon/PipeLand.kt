@@ -8,28 +8,42 @@ class PipeLand internal constructor() {
     var j1 = 0
     var i2 = 0
     var j2 = 0
-    var swapActive = false
+    private var swapActive = 0
     var layout = Array<IntArray?>(8) { IntArray(6) }
-    fun swap(id: String): Boolean {
-        if (!swapActive) {
+
+
+    // If one pipe is clicked, stores it, once the second one is clicked, swaps
+    fun swap(id: String): Int {
+        if (swapActive == 0) {
             i1 = id[9].toString().toInt() - 1
             j1 = id[10].toString().toInt() - 1
-        } else {
+            swapActive = 1
+            return swapActive
+        } else if(swapActive == 1){
             i2 = id[9].toString().toInt() - 1
             j2 = id[10].toString().toInt() - 1
+
+            // Checks if both pipes are the same type
+            if((layout[i1]!![j1] <= 3 && layout[i2]!![j2] > 3) || (layout[i1]!![j1] > 3 && layout[i2]!![j2] <= 3)) {
+                swapActive = 0
+                return 2
+            }
 
             val temp = layout[i1]!![j1]
             layout[i1]!![j1] = layout[i2]!![j2]
             layout[i2]!![j2] = temp
+
+            swapActive = 0
+            return swapActive
         }
-        swapActive = !swapActive
-        return !swapActive
+        return 1
     }
 
     fun checkForPath(): Boolean {
         return (checkPath(2) || checkPath(1))
     }
 
+    // Checks path from bottom and side based on parameter
     fun checkPath(pOut: Int): Boolean {
         var pout = pOut
         var i = 0
@@ -43,6 +57,7 @@ class PipeLand internal constructor() {
         return true
     }
 
+    // Moves through the pipe
     fun pipeMove(`in`: Int, pipeType: Int): Int {
         if (pipeType == -2) {
             return if (`in` != 0 && `in` != 3) -1 else -2
@@ -60,6 +75,7 @@ class PipeLand internal constructor() {
         private const val TAG = "PipeLand"
     }
 
+    // Randomly generates pipe layout
     init {
         val rand = Random()
         val pipes = intArrayOf(8, 8, 8, 8, 6, 8)
