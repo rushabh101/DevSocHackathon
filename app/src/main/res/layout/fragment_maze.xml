@@ -27,16 +27,18 @@
         android:src="@drawable/image_5" />
 
     <Button
+        android:id="@+id/button1"
         android:layout_width="123dp"
         android:layout_height="69dp"
-        android:layout_below="@+id/imageView"
 
+        android:layout_below="@+id/imageView"
         android:layout_alignStart="@+id/imageView"
         android:layout_alignEnd="@+id/imageView"
         android:layout_marginStart="118dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="105dp"
         android:drawableLeft="@drawable/ic_baseline_play_arrow_24"
+        android:onClick="setMaze"
         android:text="Play" />
 
 </RelativeLayout>
