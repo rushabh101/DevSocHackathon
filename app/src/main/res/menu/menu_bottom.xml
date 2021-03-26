@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cnb_unselectedColor="#fff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+
+    <item android:id="@+id/terminal"
+        android:title="Terminal"
+        android:icon="@drawable/ic_command_window"
+        app:cnb_backgroundColor="#ffe135"
+        app:cnb_iconColor="#fff"
+        app:cnb_textColor="#fff"/>
+    <item android:id="@+id/maze"
+        android:title="Maze"
+        android:icon="@drawable/ic_aim"
+        app:cnb_backgroundColor="#ffe135"
+        app:cnb_iconColor="#fff"
+        app:cnb_textColor="#fff"/>
+
+    <item android:id="@+id/about"
+        android:title="About"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        app:cnb_backgroundColor="#ffe135"
+        app:cnb_iconColor="#fff"
+        app:cnb_textColor="#fff"/>
+
+
+</menu>
