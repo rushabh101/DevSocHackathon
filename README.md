@@ -11,7 +11,7 @@ https://drive.google.com/file/d/1n_bKNfspDQwZrX68P8K8k0n3C0BO89-Q/view?usp=shari
 
 Puzzle 2:
 
-
+https://drive.google.com/file/d/1-9oiptx6uHwlrzSsnLlKnUihHgBIKMBg/view?usp=sharing
 
 Apk Link:
 https://drive.google.com/file/d/1K9A0EK-TdT0kD-ifsJfNFKmS-SE7m0KF/view?usp=sharing
