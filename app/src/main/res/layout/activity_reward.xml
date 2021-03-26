@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_black"
+    android:orientation="vertical"
+    tools:context=".fail_screen">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="26dp"
+        android:fontFamily="@font/adobe_dia"
+        android:text="FILE UNLOCKED"
+        android:textColor="#ecbd17"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="33dp"
+        android:fontFamily="@font/adobe_dia"
+        android:padding="5dp"
+        android:paddingBottom="15dp"
+        android:text="26-Mar-1987                                              2:45 am"
+        android:textColor="#ecbd17"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/congrats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="26dp"
+        android:fontFamily="@font/adobe_dia"
+        android:text="Dear Comrade,\nYou have proved your worth today.\nYou have brought cheer and joy to your motherland and its children can rejoice once more.\nThe dulcet tones of this music will surely herald a new generation of prosperity for us. Godspeed."
+        android:textAlignment="center"
+        android:textColor="#ecbd17"
+        android:textSize="28sp" />
+    <Button
+        android:id="@+id/titler"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mm_cv"
+        app:backgroundTint="@null"
+        android:text="RETURN TO TITLES SCREEN"/>
+
+</LinearLayout>

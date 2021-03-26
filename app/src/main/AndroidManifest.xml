@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DevSocHackathon">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Reward"></activity>
+        <activity android:name=".unlocked_screen" />
+        <activity android:name=".fail_screen" />
+        <activity android:name=".Hard" />
+        <activity android:name=".Easy" />
+        <activity android:name=".Medium" />
+        <activity android:name=".MainMenu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
