@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="	#a12c2c"
-    tools:context=".DnaFragment">
+    tools:context=".DnaFragment"
+    android:layout_gravity="center">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

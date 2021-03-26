@@ -5,12 +5,7 @@
 
 
 
-    <item android:id="@+id/dna"
-        android:title="DNA"
-        android:icon="@drawable/ic_blood_sample"
-        app:cnb_backgroundColor="#ffe135"
-        app:cnb_iconColor="#fff"
-        app:cnb_textColor="#fff"/>
+
 
     <item android:id="@+id/terminal"
         android:title="Terminal"

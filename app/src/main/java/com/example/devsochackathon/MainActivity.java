@@ -40,9 +40,7 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.about:
                         fragment = new AboutFragment();
                         break;
-                    case R.id.dna:
-                        fragment = new DnaFragment();
-                        break;
+
                     case R.id.maze:
                         fragment = new MazeFragment();
                         break;
