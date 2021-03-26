@@ -4,6 +4,7 @@ import android.app.AlertDialog
 import android.graphics.Color
 import android.media.Image
 import android.os.Bundle
+import android.view.MotionEvent
 import android.view.View
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
@@ -125,5 +126,9 @@ class MainActivity : AppCompatActivity() {
         alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK"
         ) { dialog, which -> dialog.dismiss() }
         alertDialog.show()
+    }
+
+    fun restartButton(view: View, event: MotionEvent) {
+
     }
 }
