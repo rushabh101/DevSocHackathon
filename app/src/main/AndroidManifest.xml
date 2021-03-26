@@ -15,7 +15,7 @@
         <activity android:name=".Hard" />
         <activity android:name=".Easy" />
         <activity android:name=".Medium" />
-        <activity android:name=".MainMenu">
+        <activity android:name=".MainMenu"/>
         <activity android:name=".MazeActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

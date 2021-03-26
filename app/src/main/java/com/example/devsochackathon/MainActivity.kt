@@ -13,9 +13,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var but = findViewById<Button>(R.id.button)
-        but.setOnClickListener{
+        var but1 = findViewById<Button>(R.id.button)
+        but1.setOnClickListener{
             val intent: Intent = Intent(this, MazeActivity::class.java)
+            startActivity(intent)
+        }
+
+        var but2 = findViewById<Button>(R.id.button2)
+        but2.setOnClickListener{
+            val intent: Intent = Intent(this, MainMenu::class.java)
             startActivity(intent)
         }
 
