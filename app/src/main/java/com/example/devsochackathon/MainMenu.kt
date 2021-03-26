@@ -43,6 +43,10 @@ class MainMenu : AppCompatActivity() {
                 layout.setBackgroundResource(R.color.black)
                 c++
             }
+            help.setOnClickListener{
+                val intent:Intent=Intent(this@MainMenu,Help::class.java)
+                startActivity(intent)
+            }
             terminal1.setOnClickListener{
                 val intent:Intent=Intent(this@MainMenu,Easy::class.java)
                 startActivity(intent)

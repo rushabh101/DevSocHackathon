@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Help"
+    android:orientation="vertical"
+    android:background="@drawable/bg_black">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="26dp"
+        android:fontFamily="@font/adobe_dia"
+        android:text="HELP"
+        android:textColor="#ecbd17"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:textColor="#ecbd17"
+            android:textSize="20sp"
+            android:fontFamily="@font/adobe_dia"
+            android:text="1. Make a Note of the Event Log before every run; it will help you later\n2. You can only enter words shown on the screen without extra whitespaces and in Upper Case. Not doing so will result in INVALD Entry\n3. Make sure you remove duds to replenish your attempts\n4. Entries matched denotes the number of correct characters in the correct places of the actual password.\n5. Godspeed Gentleman"/>
+    </ScrollView>
+
+
+</LinearLayout>
