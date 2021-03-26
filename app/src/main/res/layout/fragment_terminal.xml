@@ -18,14 +18,15 @@
         android:text="Terminal" />
 
     <ImageView
-        android:layout_centerInParent="true"
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
         android:layout_marginStart="34dp"
         android:layout_marginTop="124dp"
+        android:onClick="setHack"
         android:src="@drawable/image_2" />
 
     <Button
@@ -37,7 +38,7 @@
         android:layout_alignStart="@+id/imageView"
         android:layout_alignEnd="@+id/imageView"
         android:layout_marginStart="118dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="105dp"
         android:drawableLeft="@drawable/ic_baseline_play_arrow_24"
         android:onClick="setHack"
