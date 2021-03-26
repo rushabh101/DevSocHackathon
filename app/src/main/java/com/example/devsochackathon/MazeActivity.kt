@@ -138,7 +138,7 @@ class MazeActivity : AppCompatActivity() {
     fun helpButton(view: View) {
         val alertDialog = AlertDialog.Builder(this@MazeActivity).create()
         alertDialog.setTitle("Cat")
-        alertDialog.setMessage("You are an all-powerful cat who can bend space to reach your yarn. But, you're still a cat so you're powers are limited to only being able to swap 2 objects of a similar shape and size.")
+        alertDialog.setMessage("You are an all-powerful cat who can bend space to reach your yarn.\nBut, you're still a cat so your powers are limited to only being able to swap 2 objects of a similar shape and size.")
         alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "I am now a cat"
         ) { dialog, which -> dialog.dismiss() }
         alertDialog.show()
