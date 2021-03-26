@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="	#a12c2c"
+    tools:context=".DnaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:textColor="#fff"
+        android:text="DNA Match" />
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="124dp"
+        android:src="@drawable/image_3" />
+    <Button
+        android:layout_width="123dp"
+        android:layout_height="69dp"
+        android:layout_below="@+id/imageView"
+
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="105dp"
+        android:drawableLeft="@drawable/ic_baseline_play_arrow_24"
+        android:text="Play" />
+
+
+</RelativeLayout>
