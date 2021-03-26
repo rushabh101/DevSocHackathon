@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_black"
+    android:orientation="vertical"
+    tools:context=".fail_screen">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="26dp"
+        android:fontFamily="@font/adobe_dia"
+        android:text="MAIN MENU"
+        android:textColor="#ecbd17"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="33dp"
+        android:fontFamily="@font/adobe_dia"
+        android:padding="5dp"
+        android:paddingBottom="15dp"
+        android:text="26-Mar-1987                                              1:45 am"
+        android:textColor="#ecbd17"
+        android:textSize="20sp" />
+
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/terminal1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/mm_cv"
+            android:fontFamily="@font/adobe_dia"
+            android:text="TERMINAL 0XF"
+            android:textColor="#000000"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/terminal2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/mm_cv"
+            android:fontFamily="@font/adobe_dia"
+            android:text="TERMINAL 0XH"
+            android:textColor="#000000"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/terminal3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:background="@drawable/mm_cv"
+            android:fontFamily="@font/adobe_dia"
+            android:text="TERMINAL 0XJ"
+            android:textColor="#000000"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/help"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/mm_cv"
+            android:fontFamily="@font/adobe_dia"
+            android:text="HELP"
+            android:textColor="#000000"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/reward"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:background="@drawable/mm_cv"
+            android:fontFamily="@font/adobe_dia"
+            android:text="UNLOCK"
+            android:textColor="@android:color/darker_gray"
+            app:backgroundTint="@null" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+        <Button
+            android:id="@+id/power"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="335dp"
+            android:background="@drawable/powerbutton"
+            android:padding="10dp"
+            app:backgroundTint="@null" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

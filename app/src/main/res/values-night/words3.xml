@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="words3">
+        <item>INFILTRATION</item>
+        <item>ORGANIZATION</item>
+        <item>AUTHENTICITY</item>
+        <item>APPRECIATION</item>
+        <item>SPOKESPERSON</item>
+        <item>LABORATORIES</item>
+        <item>INITIATEHOOD</item>
+        <item>SUBTERRANEAN</item>
+        <item>PURIFICATION</item>
+        <item>TRANSMISSION</item>
+        <item>CIVILIZATION</item>
+        <item>CONSTRUCTION</item>
+        <item>RESURRECTION</item>
+        <item>REPRIMANDING</item>
+        <item>ACCOMPANYING</item>
+        <item>OVERWHELMING</item>
+        <item>CONSERVATION</item>
+        <item>NORTHERNMOST</item>
+        <item>TRANSCRIBING</item>
+        <item>ANNOUNCEMENT</item>
+        <item>SECESSIONIST</item>
+        <item>ADULTERATION</item>
+        <item>ANNIHILATION</item>
+        <item>DISTRIBUTION</item>
+        <item>INTOLERANTLY</item>
+        <item>MEDITATIVELY</item>
+        <item>WOMANIZATION</item>
+        <item>ANNUNCIATION</item>
+        <item>BLABBERMOUTH</item>
+    </string-array>
+</resources>

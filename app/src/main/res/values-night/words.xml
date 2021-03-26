@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="words">
+        <item>STATING</item>
+        <item>HEALING</item>
+        <item>COSTING</item>
+        <item>REASONS</item>
+        <item>SEASIDE</item>
+        <item>SPARING</item>
+        <item>HACKING</item>
+        <item>CAUSING</item>
+        <item>CRAFTED</item>
+        <item>PRISONS</item>
+        <item>PRESENT</item>
+        <item>DEALING</item>
+        <item>SETTING</item>
+        <item>LEAVING</item>
+        <item>VERSION</item>
+        <item>DEATHLY</item>
+        <item>BLAZING</item>
+        <item>GRANITE</item>
+        <item>TESTING</item>
+        <item>TRAITOR</item>
+        <item>STAMINA</item>
+        <item>TRINITY</item>
+        <item>CALLING</item>
+        <item>TALKING</item>
+        <item>PACKING</item>
+        <item>ALLOWED</item>
+        <item>SELLING</item>
+        <item>AFFRONT</item>
+        <item>WALKING</item>
+    </string-array>
+</resources>

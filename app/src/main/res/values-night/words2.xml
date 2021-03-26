@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="words2">
+        <item>DISCOVERING</item>
+        <item>ELIMINATING</item>
+        <item>UNIMPORTANT</item>
+        <item>MISTRUSTING</item>
+        <item>DISCOVERING</item>
+        <item>MANUFACTURE</item>
+        <item>RADIOACTIVE</item>
+        <item>EXCLUSIVELY</item>
+        <item>BOMBARDMENT</item>
+        <item>DECEPTIVELY</item>
+        <item>INDEPENDENT</item>
+        <item>UNBELIEVERS</item>
+        <item>EFFECTIVELY</item>
+        <item>IMMEDIATELY</item>
+        <item>INFESTATION</item>
+        <item>DESCRIPTION</item>
+        <item>INFORMATION</item>
+        <item>REMEMBERING</item>
+        <item>NIGHTVISION</item>
+        <item>DESTRUCTION</item>
+        <item>OVERLOOKING</item>
+        <item>ABANDONMENT</item>
+        <item>ABOMINATION</item>
+        <item>BARBAROUSLY</item>
+        <item>IDEOLOGICAL</item>
+        <item>EXONERATION</item>
+        <item>IMMIGRATION</item>
+        <item>ILLUMINATED</item>
+        <item>UNALIENABLE</item>
+    </string-array>
+</resources>

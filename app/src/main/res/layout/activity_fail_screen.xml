@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fail_screen"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/adobe_dia"
+        android:textSize="36sp"
+        android:textColor="#59ff82"
+        android:textAlignment="center"
+        android:text="TERMINAL LOCKED\nPLEASE CONTACT ADMINISTRATOR."/>
+    <Button
+        android:id="@+id/main_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAIN MENU"
+        android:fontFamily="@font/adobe_dia"
+        app:backgroundTint="@null"
+        android:background="@drawable/scroll"
+        android:textSize="20sp"
+        android:textColor="#0e281b"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+</LinearLayout>
