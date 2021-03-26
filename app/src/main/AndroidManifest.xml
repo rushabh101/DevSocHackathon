@@ -18,8 +18,9 @@
         <activity android:name=".Medium" />
         <activity android:name=".MainMenu" />
         <activity android:name=".MazeActivity" />
-        <activity android:name=".MainActivity">
-            <intent-filter>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".SplashActivity">
+        <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
